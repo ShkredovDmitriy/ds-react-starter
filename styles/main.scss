@@ -1,0 +1,14 @@
+@import "./mixins.scss";
+
+@import "./fonts.scss";
+
+@import "./vars.scss";
+
+@import "./reset.scss";
+
+// blocks
+@import "../blocks/common/MainHeader/main-header.scss";
+
+@import "../blocks/Index/MainContent/main-content.scss";
+
+@import "../blocks/common/MainFooter/main-footer.scss";

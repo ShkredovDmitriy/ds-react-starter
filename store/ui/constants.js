@@ -1,0 +1,3 @@
+export const GET_FEEDBACK_SUBJECTS = 'GET_FEEDBACK_SUBJECTS';
+export const GET_FAQ_SUCCESS = 'GET_FAQ_SUCCESS';
+export const NAME = 'UI';

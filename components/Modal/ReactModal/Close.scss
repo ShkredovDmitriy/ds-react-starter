@@ -1,0 +1,13 @@
+/* крестик */
+.ds-modal-close-btn {
+  position: absolute;
+  top: 2.125rem;
+  right: 2.125rem;
+  width: .9375rem;
+  height: .9375rem;
+  background-image: url("/images/close-icon.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  cursor: pointer;
+}

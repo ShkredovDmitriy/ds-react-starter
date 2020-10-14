@@ -1,0 +1,75 @@
+/* ds-modal */
+
+/* запрещаем прокрутку для body */
+.ds-modal__overflow-hidden {
+  overflow: hidden !important;
+}
+
+/* фиксированная оболочка со скрытым скроллом и фоновой заливкой */
+.ds-modal {
+  position: fixed;
+  top: 0;
+  right: -30px;
+  bottom: 0;
+  left: 0;
+  z-index: 1003;
+  opacity: 0;
+  overflow: hidden;
+  overflow-y: auto;
+  will-change: opacity;
+  transform: translate3d(0, 0, 0);
+  
+  &.ReactModal__Overlay--after-open{
+    background-color: rgba(0, 0, 0, 0.8);
+    opacity: 1;
+    will-change: opacity;
+    transition: opacity 200ms ease-in-out;
+  }
+  
+  &.ReactModal__Overlay--before-close{
+    opacity: 0;
+    transition: 300ms opacity 200ms ease-in-out;
+  }
+}
+
+/* обертка с выравниванием модального окна по горизонтали и верикали */
+.ds-modal__wrapper {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  padding: 1.5rem;
+  width: 100vw;
+  min-height: 100%;
+}
+
+/* фикс бага (min-height) в ИЕ11 */
+_:-ms-fullscreen,
+:root .ds-modal__wrapper {
+  height: 1px;
+}
+
+/* анимация модального окна: fade in scale */
+.fade-in-scale-block {
+  display: block;
+  background-color: rgba(0, 0, 0, .8);
+  opacity: 0;
+  will-change: opacity;
+  transition: opacity 200ms ease-in-out;
+}
+
+.fade-in-scale-block .ds-modal__body {
+  opacity: 0;
+  will-change: transform, opacity;
+  transform: scale(.7);
+  transition: transform 300ms, opacity 300ms;
+}
+
+.fade-in-scale-bg {
+  opacity: 1;
+}
+
+.fade-in-scale-body .ds-modal__body {
+  opacity: 1;
+  transform: scale(1);
+}

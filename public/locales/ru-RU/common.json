@@ -1,0 +1,218 @@
+{
+  "validations": {
+    "required": "Вы не заполнили поле \"{{field_name}}\"",
+    "min": "Минимальная длинна {{min}}",
+    "max": "Максимальная длинна {{max}}",
+    "checkbox": "Это поле является обязательным для заполнения",
+    "phone_ru": "Введите российский номер телефона",
+    "personal_inn_ru": "Введите верный ИНН",
+    "ru_one": "Поле может состоять из кириллицы, тире и пробела",
+    "ru_two": "Поле может состоять из кириллицы",
+    "date_one": "Введите дату в формате ДД.ММ.ГГГГ",
+    "email": "Используйте только латинские буквы, для ввода допускается только формат электронной почты",
+    "password": "Введите не менее 8-и символов без пробела",
+    "password_equal": "Пароли не совпадают",
+    "num_one": "Поле может состоять из цифр и пробелов",
+    "ext": "Файл {{fileName}} имеет недопустимый тип",
+    "fileSize": "Общий размер фвйлов {{size}}КБ превышает допустимые {{max}}КБ",
+    "integer": "Поле должно содержать целое число",
+    "positive": "Поле должно содержать положительное число",
+    "max_number": "Максимально допустимое число {{max}}",
+    "notType": "Значение должно быть $t(validations.types.{{type}})",
+    "types": {
+      "number": "числом",
+      "string": "строкой"
+    }
+  },
+  "weeks": ["вс", "пн", "вт", "ср", "чт", "пт", "сб"],
+  "months": ["Янв", "Фев", "Мар", "Апр", "Май", "Июн", "Июл", "Авг", "Сен", "Окт", "Ноя", "Дек"],
+  "fields": {
+    "surname": {
+      "label": "Фамилия",
+      "placeholder": "Иванов"
+    },
+    "first_name": {
+      "label": "Имя",
+      "placeholder": "Иван"
+    },
+    "patronymic": {
+      "label": "Отчество",
+      "placeholder": "Иванович"
+    },
+    "position": {
+      "label": "Должность",
+      "placeholder": "Введите должность"
+    },
+    "email": {
+      "label": "E-mail",
+      "placeholder": "Primer@mail.ru"
+    },
+    "phone": {
+      "label": "Телефон",
+      "placeholder": "+7(xxx)xxx-xx-xx"
+    },
+    "company": {
+      "label": "Название компании",
+      "placeholder": "ООО Пример"
+    },
+    "inn": {
+      "label": "ИНН",
+      "placeholder": "12345678"
+    },
+    "legal_entity": {
+      "label": "Юридическое лицо",
+      "placeholder": "ООО Пример"
+    },
+    "address": {
+      "label": "Фактический адрес",
+      "placeholder": "г. Москва, ул. примерная, дом 44 к 2"
+    },
+    "city": {
+      "label": "Город",
+      "placeholder": "Введите город"
+    },
+    "district": {
+      "label": "Федеральный округ",
+      "placeholder": "Выберите округа"
+    },
+    "coverage_area": {
+      "label": "Регионы покрытия",
+      "placeholder": "Выберите регионы"
+    },
+    "site": {
+      "label": "Сайт",
+      "placeholder": "www.primer.ru"
+    },
+    "shops_count": {
+      "label": "Общее кол-во розничных точек",
+      "placeholder": "20"
+    },
+    "purchases_amount": {
+      "label": "Годовой объем закупок масла Total 2019 г. руб.",
+      "placeholder": "200 000"
+    },
+    "purchases_volume": {
+      "label": "Годовой объем закупок масла Total 2019 г. л.",
+      "placeholder": "20 000"
+    },
+    "checkbox_rules": {
+      "label": "Я согласен(а) с правилами",
+      "placeholder": "Я согласен(а) с <1>правилами</1>"
+    },
+    "checkbox_personal": {
+      "label": "Я даю согласие на хранение и обработку моих персональных данных",
+      "placeholder": "Я даю согласие на <1>хранение и обработку моих персональных данных</1>"
+    },
+    "checkbox_notifications": {
+      "label": "Я даю согласие на отправку уведомлений",
+      "placeholder": "Я даю согласие на отправку уведомлений"
+    },
+    "shop_type": {
+      "label": "Тип розничной точки",
+      "placeholder": "Выберите тип",
+      "options": {
+        "petrol-station": "АЗС",
+        "automobile-repair-shop": "Независимые СТО",
+        "hypermarket": "Гипермаркет",
+        "retail-shop": "Розничный магазин",
+        "online-shop": "Интернет магазин",
+        "oil-change-service": "Пункт замены масла",
+        "official-dealer": "Официальный дилер",
+        "authorized-service-center": "Официальный сервис Total"
+      }
+    },
+    "sales_count": {
+      "label": "Количество продавцов",
+      "placeholder": "50"
+    },
+    "password": {
+      "label": "Пароль",
+      "placeholder": "Введите пароль"
+    },
+    "subject": {
+      "label": "Тема сообщения",
+      "placeholder": "Выберите тему"
+    },
+    "message": {
+      "label": "Сообщение",
+      "placeholder": "Введите сообщение"
+    },
+    "user_agreement": {
+      "label": "Я принимаю условия пользовательского соглашения"
+    },
+    "captcha": {
+      "label": "Я не робот"
+    },
+    "points_type": {
+      "label": "Вид начисления",
+      "placeholder": "Вид начисления"
+    },
+    "password_old": {
+      "label": "Текущий пароль",
+      "placeholder": "Укажите текущий пароль"
+    },
+    "password_new": {
+      "label": "Новый пароль",
+      "placeholder": "Укажите новый пароль"
+    },
+    "password_repeat": {
+      "label": "Повторите новый пароль",
+      "placeholder": "Укажите новый пароль повторно"
+    }
+  },
+
+  "buttons": {
+    "sign_up": "Зарегистрироваться"
+  },
+
+  "api": {
+    "/auth/login": {
+      "messages": {
+        "The given data was invalid.": "Не удаётся войти"
+      }
+    },
+    "/auth/merchandisers": {
+      "messages": {
+        "The given data was invalid.": "Ошибка регистрацици"
+      }
+    },
+    "/auth/password/change": {
+      "messages": {
+        "Ваши данные были успешно обновлены.": "Ваши данные были успешно обновлены"
+      }
+    },
+    "exceptions": {
+      "EmailNotVerifiedException": "E-mail адресс не подтвержден",
+      "PasswordMismatchException": "Неверный текущий пароль",
+      "UserIsAlreadyRegisteredForBroadcastException": "Пользователь уже зарегистрирован на трансляцию",
+      "Symfony\\Component\\HttpKernel\\Exception\\AccessDeniedHttpException": "Доступ запрещен"
+    },
+    "status": {
+      "403": "Доступ запрещен",
+      "401": "Войдите под своей учетной записью"
+    },
+    "default": {
+      "messages": {
+        "The given data was invalid": "Ошибка регистрацици",
+        "unknown": "Неизвестная ошибка"
+      }
+    }
+  },
+
+  "modal_messages": {
+    "restore_password_success": "Мы отправили вам на почту одноразовый пароль для входа в Личный кабинет. После входа не забудьте его изменить в разделе “Настройки”",
+    "change_password_success": "Пароль успешно изменен!",
+    "add_user_success": "Участник успешно зарегистрирован. Мы отправили ему приглашение на e-mail!",
+    "invite_user_copy_success": "Ссылка скопирована. Отправьте ее участнику, которого хотите пригласить удобным вам способом.",
+    "sign_up_invite_success": "Вы успешно зарегистрированы. Мы отправили вам приглашение на e-mail!",
+    "edit_user_success": "Ваши данные успешно сохранены!",
+    "send_feedback_success": "Сообщение отправлено! Мы свяжемся с вами в течение 3-х рабочих дней.",
+    "webinar_registration_success": "Вы записаны на вебинер.",
+    "quiz_results_true": "Поздравляем! Вы закончили тестирование и<br />ответили на {{correct}} из {{all}} вопросов верно",
+    "quiz_results_false": "Увы! Вы не прошли тестирование и<br />ответили на {{wrong}} из {{all}} вопросов не верно"
+  },
+
+  "date_time": {
+    "year_short": "г."
+  }
+}

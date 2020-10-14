@@ -1,0 +1,32 @@
+// colors
+$color-white: #ffffff;
+$color-grey: #cecece;
+$color-blue: #3158b3;
+$color-black: #000000;
+
+// fonts
+$font-main-light: "ManropeLight", Arial, sans-serif;
+$font-main-regular: "ManropeRegular", Arial, sans-serif;
+$font-main-medium: "ManropeMedium", Arial, sans-serif;
+$font-main-bold: "ManropeBold", Arial, sans-serif;
+
+// notebook
+@mixin media-notebook {
+  @media (max-width: 1480px) {
+    @content;
+  }
+}
+
+// tablet
+@mixin media-tablet {
+  @media (max-width: 1100px) {
+    @content;
+  }
+}
+
+// mobile
+@mixin media-mobile {
+  @media (max-width: 570px) {
+    @content;
+  }
+}

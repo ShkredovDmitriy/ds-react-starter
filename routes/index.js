@@ -1,0 +1,15 @@
+export default {
+  // index: '/',
+  // about: '/about',
+  // foodSystem: '/foodSystem',
+  // foodStart: '/foodStart',
+  // foodExpand: '/foodExpand',
+  // foodExpand: '/foodGrown',
+  // products: '/products',
+  // articles: '/articles',
+  // article: '/article',
+  // feedback: '/feedback',
+  // search: '/search',
+  // growthChart: '/growthChart',
+  // menuPlanner: '/menuPlanner',
+};
