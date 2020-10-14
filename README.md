@@ -26,11 +26,11 @@ npm run export
 
 ## Features
 
-*** in in developing
+*** in developing
 
 ## Directories
 
-*** in in developing
+*** in developing
 
 ## License
 
