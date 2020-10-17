@@ -9,7 +9,7 @@ import { SnackbarProvider } from 'notistack';
 import ReactModal from 'react-modal';
 import '~/styles/index.scss';
 import '~/styles/main.scss';
-import Auth from '~/services/Auth/Auth';
+
 import { WaitI18n } from '~/i18n'
 import '~/services/validation/yup';
 
